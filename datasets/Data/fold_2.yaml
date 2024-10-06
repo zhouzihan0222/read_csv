@@ -1,0 +1,6 @@
+train: /home/zihan/ultralytics/datasets/Data/train2/images
+val: /home/zihan/ultralytics/datasets/Data/valid2/images
+test: /home/zihan/ultralytics/datasets/Data/test/images
+
+names:
+  0: thyroid-nodule
