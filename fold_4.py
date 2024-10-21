@@ -1,11 +1,11 @@
 from ultralytics import YOLO
 
 # 加载模型
-pre_model_name = 'yolo11n-seg.pt'
+pre_model_name = 'yolo11n.pt'
 
 data_yaml_path = 'datasets/Data/fold_4.yaml'
 
-model_yaml_path = "/home/zihan/ultralytics/ultralytics/cfg/models/11/yolo11-seg.yaml"
+model_yaml_path = "/home/zihan/ultralytics/ultralytics/cfg/models/11/yolo11.yaml"
 
 
 if __name__ == '__main__':
@@ -15,4 +15,4 @@ if __name__ == '__main__':
     results = model.train(data=data_yaml_path,
                           epochs=64,
                           batch=-1,
-                          name='fold_4_seg')
+                          name='fold_4_box')

@@ -15,5 +15,5 @@ if __name__ == '__main__':
     results = model.train(data=data_yaml_path,
                           epochs=64,
                           batch=-1,
-                          name='fold_1_seg')
+                          name='fold_1_seg_stanford_100')
 
