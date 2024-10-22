@@ -3,7 +3,7 @@ from ultralytics import YOLO
 # 加载模型
 pre_model_name = 'yolo11n-seg.pt'
 
-data_yaml_path = 'datasets/Data/fold_1.yaml'
+data_yaml_path = '/home/zihan/ultralytics/datasets/Data/stanford_aug/stanford_aug.yaml'
 
 model_yaml_path = "/home/zihan/ultralytics/ultralytics/cfg/models/11/yolo11-seg.yaml"
 
@@ -21,5 +21,5 @@ if __name__ == '__main__':
         lrf=0.01,
         augment=True,
         save_period=10,
-        name='fold_1_seg_stanford_100'
+        name='stanford_aug_seg'
     )

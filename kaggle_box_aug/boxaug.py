@@ -1,10 +1,7 @@
 from ultralytics import YOLO
 
-# 加载模型
 pre_model_name = 'yolo11n-seg.pt'
-
 data_yaml_path = 'datasets/Data/fold_1.yaml'
-
 model_yaml_path = "/home/zihan/ultralytics/ultralytics/cfg/models/11/yolo11-seg.yaml"
 
 
